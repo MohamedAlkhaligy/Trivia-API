@@ -91,7 +91,6 @@ The API will return three error types when requests fail:
 ### Endpoints
 #### GET /categories
 - General
-    - Request Arguments: None
     - Returns a dictionary of categories where a given category's ID is the key and its string representation is the value stored.
 - Sample: `curl http://127.0.0.1:5000/categories`
 ```json
